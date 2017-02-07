@@ -1,0 +1,75 @@
+html,body{
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+
+}
+h1, p{
+	margin:0;
+	padding: 0;
+}
+h1{
+	font-size: 42px;
+	width: 80vw;
+	font-weight: 700;
+	color: rgb(100,0,0);
+	margin-top: 20px;
+	text-align: center;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+p{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 3.5vw;
+	width: 80vw;
+	line-height: 1.5;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+div {
+/*	background-color: rgba(255,0,0,1);*/
+	width: 300px;
+	height: 300px;
+	margin:10px 0 0 100px;
+	/*border-radius:50%;*/
+
+/*Making a triangle*/
+/*	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 150px solid green;*/
+}
+.circle{
+	border-radius: 50%;
+}	
+.red{
+	background-color: red;
+}
+.green{
+	background-color: green;
+}
+.smaller{
+	width: 100px;
+	height: 100px;
+}
+.bigger{
+	width: 400px;
+	height: 400px;
+}
+#specialDiv{
+	background-color: blue;
+	position: absolute;
+	top: 0;
+	left:0;
+	right: 0;
+	bottom: 0;
+	margin: 0 auto;
+	/*Positioning*/
+	/*Absolute -- takes out of flow, and puts it wherever indicated*/
+	/*Relative -- blocks out space it's going to take up*/
+}

@@ -1,0 +1,48 @@
+html,body{
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+h1{
+	margin: 0;
+}
+
+h1{
+	color: #fc11ae;
+	background-color: black;
+	width: 39vw;
+	padding: 5px;
+	font-size: 50px;
+}
+p{
+	/*outline: 1px solid yellow;*/
+	width: 40vw;
+	text-align: justify;
+}
+blockquote{
+	width:60vw;
+	border: 2px solid #fc11ae;
+	padding: 10px;
+}
+ol{
+	/*outline: 1px solid blue;*/
+}
+li{
+
+}
+h2{
+	/*outline: 1px solid green;*/
+	background-color: black;
+	color: white;
+	width: 20vw;
+}
+h3{
+	/*outline: 1px solid purple;*/
+	background-color: black;
+	color: white;
+	width: 10vw;
+}
+img{
+	/*outline: 1px solid pink;*/
+	width: 20vw;
+	height: auto;
+}
