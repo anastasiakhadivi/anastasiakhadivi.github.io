@@ -1,0 +1,25 @@
+body{
+	margin: 0;
+}
+.droppable{
+	width: 90vw;
+	height: 300px;
+/*	font-family: "Franklin Gothic Heavy", sans-serif;*/
+	font-size: 2em;
+	margin: auto;
+/*	outline: 1px solid red;*/
+
+}
+.draggable{
+/*	outline: 1px solid yellow;*/
+	list-style-type: none;
+	width: 90vw;
+	text-align: justify;
+	font-family: "Baskerville", "Times New Roman", serif;
+}
+.draggable li{
+	border:1px solid black;
+	display: inline;
+	padding: 8px;
+	line-height: 2.7em;
+}
