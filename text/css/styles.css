@@ -23,3 +23,32 @@ body{
 	padding: 8px;
 	line-height: 2.7em;
 }
+p a{
+	text-decoration: none;
+	color: black;
+	margin-left: 40px;
+/*	outline: 1px solid red;*/
+}
+p a:visited{
+	color: black;
+}
+.poem_container{
+	width: 80vw;
+	display: -webkit-flex;
+	margin: 0 auto;
+	/*outline: 1px solid yellow;*/
+	}
+.frost{
+	margin-left: 40px;
+	width:50vw;
+	font-family: "Baskerville", "Times New Roman", serif;
+}
+.mckay{
+	width: 50vw;
+	font-family: "Baskerville", "Times New Roman", serif;
+	margin-left: 50px;
+
+}
+.poet{
+	font-family: "Franklin Gothic Heavy", sans-serif;
+}
