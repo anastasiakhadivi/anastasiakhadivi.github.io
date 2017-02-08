@@ -1,5 +1,78 @@
-div{
-	background-color: red;
+/*Transition 1*/
+.transition_1{
+	/*freebies*/
+	height: 200px;
+	width: 200px;
+}
+.div_1{
+	box-shadow:22px 22px 1px 1px red;
+	border-radius:20px 10px 0 2px;
+}
+.div_2{
+	box-shadow:-09px 10px 56px 2px blue;
+	border-radius:;
+}
+/*Transition 2*/
+.transition_2{
+	/*freebies!*/
+	width: 200px;
+	height: 200px;
+	background-color: rgba(500,121,21,.6)
+}
+.div_3{
+	 border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+	 box-shadow: 0px;
+}
+.div_4{
+	border-radius: 50%;
+	box-shadow: 15px 15px 0 0 red;
+}
+/*Transistion 2*/
+.transition_3{
+	/*freebies!*/
 	height: 100px;
-	width: 100px;
+	background-color: rgba(300,213,0,.3);
+}
+.div_5{
+	border-radius: 50px 50px 0 50px;
+	width: 200px;
+}
+.div_6{
+  	border-radius: 20px 0 0 0;
+  	width: 12px;
+}
+/*Transition 3*/
+.transition_4{
+	/*freebies!*/
+	width: 0;
+	height: 0;
+	background-color: rgba(233,0,3,.2);
+}
+.div_7{
+	border:7px solid transparent; 
+	border-right: 500px solid yellow;
+}
+.div_8{
+	border: 50px solid transparent;
+	border-right: 150px solid green;
+}
+/*Transition 5*/
+.transition_5{
+	/*freebies*/
+	height: 100px;
+	width:100px;
+	background-color: red;
+
+}
+.div_9{
+	-webkit-transform: rotate(22deg);
+	transform: rotate(22deg) translateX(100px);
+}
+.div_10{
+    -webkit-transform: rotate(32deg);
+    transform: rotate(32deg) scale(1.2) skew(40deg, 20deg);
+}
+/*Not included in transformations*/
+p{
+	margin-top: 100px;
 }
