@@ -1,0 +1,27 @@
+
+.square{
+	height: 10vw;
+	width: 10vw;
+	float: left;
+	position: relative;
+	margin: 0 auto;
+}
+.red{
+	background-color: red;
+}
+.black{
+	background-color: black;
+}
+.dot{
+	height: 8vw;
+	width: 8vw;
+	float: left;
+	border-radius: 50%;
+	position: absolute;
+	top: 10%;
+	left:10%;
+	background-color: yellow;
+}
+.dot:hover{
+	opacity: .1;
+}
