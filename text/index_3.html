@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Poem Maker
+	</title>
+	<style>
+		.container{
+			width: 90vw;
+			display: -webkit-flex;
+			margin-left: 50px;
+			margin-right: 50px;
+			margin-bottom: 300px;
+			margin-top: 100px;
+			outline: 1px solid red;
+		}
+		ul{
+			list-style-type: none;
+			width: 50vw;
+			text-align: justify;
+
+		}
+		ul li{
+		border:1px solid black;
+		display: inline;
+		padding: 8px;
+		line-height: 2.7em;
+		}
+		.workspace{
+			width: 50vw;
+		}
+		.originals{
+			text-decoration: none;
+			color: black;
+			padding-left: 5px;
+		}
+		.originals:visited{
+			color: black;
+		}
+		.poem_container{
+			width: 80vw;
+			display: -webkit-flex;
+			margin: 0 auto;
+			outline: 1px solid yellow;
+		}
+		.frost{
+		width: 50vw;
+		font-family: "Baskerville", "Times New Roman", serif;
+		margin-left: 50px;
+		}
+		.mckay{
+			width: 50vw;
+			font-family: "Baskerville", "Times New Roman", serif;
+			margin-left: 50px;
+		}
+	</style>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script type="text/javascript" src="javascript/script.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="workspace">
+			
+		</div>
+		<ul class="draggable column_2">
+			<li class="li_drag">Whose</li>
+			<li class="li_drag">whispers</li>
+			<li class="li_drag">song</li>
+			<li class="li_drag">Leaves</li>
+			<li class="li_drag">birds</li>
+			<li class="li_drag">mirth</li>
+			<li class="li_drag">day</li>
+			<li class="li_drag">whole</li>
+			<li class="li_drag">ask</li>
+			<li class="li_drag">woods</li>
+			<li class="li_drag">town</li>
+			<li class="li_drag">now</li>
+			<li class="li_drag">dark</li>
+			<li class="li_drag">promises</li>
+			<li class="li_drag">dwell</li>
+			<li class="li_drag">keep</li>
+			<li class="li_drag">unfading</li>
+			<li class="li_drag">with</li>
+			<li class="li_drag">go</li>
+			<li class="li_drag">sleep</li>
+			<li class="li_drag">whole</li>
+			<li class="li_drag">summer</li>
+			<li class="li_drag">always</li>
+			<li class="li_drag">forced</li>
+			<li class="li_drag">sleep</li>
+			<li class="li_drag">slave</li>
+			<li class="li_drag">His</li>
+			<li class="li_drag">will</li>
+			<li class="li_drag">tired</li>
+			<li class="li_drag">frown</li>
+			<li class="li_drag">God</li>
+			<li class="li_drag">brow</li>
+			<li class="li_drag">aye</li>
+			<li class="li_drag">drudge</li>
+			<li class="li_drag">suicide</li>
+			<li class="li_drag">watch</li>
+			<li class="li_drag">up</li>
+			<li class="li_drag">horse</li>
+			<li class="li_drag">flowers</li>
+			<li class="li_drag">heartening</li>
+			<li class="li_drag">morn</li>
+			<li class="li_drag">beauty</li>
+			<li class="li_drag">billowing</li>
+			<li class="li_drag">perfume</li>
+			<li class="li_drag">natural</li>
+			<li class="li_drag">sound's</li>
+			<li class="li_drag">corn</li>
+			<li class="li_drag">masters</li>
+			<li class="li_drag">sweet</li>
+			<li class="li_drag">showers</li>
+			<li class="li_drag">kindly</li>
+			<li class="li_drag">quitter</li>
+			<li class="li_drag">Of</li>
+			<li class="li_drag">dark</li>
+			<li class="li_drag">only</li>
+			<li class="li_drag">music</li>
+			<li class="li_drag">song</li>
+			<li class="li_drag">queer</li>
+			<li class="li_drag">farmhouse</li>
+			<li class="li_drag">sweep</li>
+			<li class="li_drag">mistake</li>
+			<li class="li_drag">shake</li>
+			<li class="li_drag">harness</li>
+			<li class="li_drag">are</li>
+			<li class="li_drag">have</li>
+			<li class="li_drag">watch</li>
+			<li class="li_drag">near</li>
+			<li class="li_drag">only</li>
+			<li class="li_drag">evening</li>
+			<li class="li_drag">and</li>
+			<li class="li_drag">I</li>
+			<li class="li_drag">between</li>
+			<li class="li_drag">long</li>
+			<li class="li_drag">an</li>
+			<li class="li_drag">not</li>
+			<li class="li_drag">the</li>
+			<li class="li_drag">to</li>
+			<li class="li_drag">and</li>
+			<li class="li_drag">sleep</li>
+			<li class="li_drag">and</li>
+			<li class="li_drag">He</li>
+			<li class="li_drag">Of</li>
+			<li class="li_drag">I'm</li>
+			<li class="li_drag">tired</li>
+			<li class="li_drag">The</li>
+			<li class="li_drag">gear</li>
+			<li class="li_drag">frown</li>
+			<li class="li_drag">aye</li>
+			<li class="li_drag">shelter</li>
+			<li class="li_drag">mere</li>
+			<a href=#poems class="originals">
+				See original poems
+			</a>
+		</ul>
+	</div>
+	<div class='poem_container' id="poems">
+		<div class='frost'>
+			<p>
+				Whose woods these are I think I know.<br>
+				His house is in the village though;<br>
+				He will not see me stopping here<br>
+				To watch his woods fill up with snow.     
+			</p>
+			<p>
+				My little horse must think it queer<br>
+				To stop without a farmhouse near<br>
+				Between the woods and frozen lake<br>
+				The darkest evening of the year. 
+			</p>
+			<p>
+				He gives his harness bells a shake<br>
+				To ask if there is some mistake.<br>
+				The only other sound’s the sweep<br>
+				Of easy wind and downy flake.   
+			</p>
+			<p>
+				The woods are lovely, dark and deep,<br>
+				But I have promises to keep,<br>
+				And miles to go before I sleep,<br>
+				And miles to go before I sleep.
+			</p>
+			<p class="poet">
+				Robert Frost
+			</p>
+		</div>
+		<div class="mckay">
+			<!-- Claude Mckay – Joy in the Woods -->
+			<p>
+				There is joy in the woods just now,<br>
+				The leaves are whispers of song,<br>
+				And the birds make mirth on the bough<br>
+				And music the whole day long,<br>
+				And God! to dwell in the town<br>
+				In these springlike summer days,<br>
+				On my brow an unfading frown<br>
+				And hate in my heart always—
+			</p>
+			<p>
+				A machine out of gear, aye, tired,<br>
+				Yet forced to go on—for I’m hired.
+			</p>
+			<p>
+				Just forced to go on through fear,<br>
+				For every day I must eat<br>
+				And find ugly clothes to wear,<br>
+				And bad shoes to hurt my feet<br>
+				And a shelter for work-drugged sleep!<br>
+				A mere drudge! but what can one do?<br>
+				A man that’s a man cannot weep!<br>
+				Suicide? A quitter? Oh, no!<br>
+			</p>
+			<p>
+				But a slave should never grow tired,<br>
+				Whom the masters have kindly hired.
+			</p>
+			<p>
+				But oh! for the woods, the flowers<br>
+				Of natural, sweet perfume,<br>
+				The heartening, summer showers<br>
+				And the smiling shrubs in bloom,<br>
+				Dust-free, dew-tinted at morn,<br>
+				The fresh and life-giving air,<br>
+				The billowing waves of corn<br>
+				And the birds’ notes rich and clear:—
+			</p>
+			<p>
+				For a man-machine toil-tired<br>
+				May crave beauty too—though he’s hired.
+			</p>
+			<p class="poet">
+				Claude Mckay
+			</p>
+		</div>
+	</div>
+</body>
+</html>

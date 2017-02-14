@@ -40,16 +40,24 @@ p a:visited{
 	/*outline: 1px solid yellow;*/
 	}
 .frost{
-	margin-left: 40px;
-	width:50vw;
+	width: 50vw;
 	font-family: "Baskerville", "Times New Roman", serif;
+	margin-left: 50px;
 }
 .mckay{
 	width: 50vw;
 	font-family: "Baskerville", "Times New Roman", serif;
 	margin-left: 50px;
-
 }
 .poet{
 	font-family: "Franklin Gothic Heavy", sans-serif;
 }
+.container_1{
+	width: 50vw;
+	margin-left: 50px;
+}
+.container_2{
+	width: 50vw;
+	margin-left: 50px;
+}
+
