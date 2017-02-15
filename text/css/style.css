@@ -1,18 +1,25 @@
+body{
+	font-family: "Baskerville", "Times New Roman", serif;
+	margin: 0;
+}
 .original_poems{
 	border:1px solid black;
 	padding:8px;
 	color: black;
 	text-decoration: none;
+	margin-top: 20px;
 	margin-left: 50px;
-	margin-top: 50px;
+	margin-right: 50px;
+/*	outline: 1px solid red;*/
+	display: inline-block;
 }
 /*Word bank*/
 .draggable{
-/*	outline: 1px solid red;*/
+/*	outline: 1px solid yellow;*/
 	list-style-type: none;
 	text-align: justify;
 	padding: 0;
-	margin: 30px 50px 500px 50px;
+	margin: 50px 50px 500px 50px;
 }
 .draggable li{
 	border:1px solid black;
@@ -22,5 +29,23 @@
 }
 /*Full poems*/
 .poem_container{
+/*	outline: 1px solid pink;*/
+	display: -webkit-flex;
+	margin-right: 50px;
+	margin-left: 50px;
 
+}
+.frost, .mckay{
+/*	outline: 1px solid red;*/
+	width: 50vw;
+}
+.frost{
+	margin-left: 15%;
+}
+.mckay{
+
+}
+.draggable li a{
+	color: black;
+	text-decoration: none;
 }
