@@ -1,0 +1,26 @@
+.original_poems{
+	border:1px solid black;
+	padding:8px;
+	color: black;
+	text-decoration: none;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+/*Word bank*/
+.draggable{
+/*	outline: 1px solid red;*/
+	list-style-type: none;
+	text-align: justify;
+	padding: 0;
+	margin: 30px 50px 500px 50px;
+}
+.draggable li{
+	border:1px solid black;
+	display: inline;
+	padding:8px;
+	line-height: 2.9em;
+}
+/*Full poems*/
+.poem_container{
+
+}

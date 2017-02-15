@@ -1,29 +1,44 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
 body{
 	margin: 0;
 }
-.droppable{
-	width: 90vw;
-	height: 300px;
-/*	font-family: "Franklin Gothic Heavy", sans-serif;*/
-	font-size: 2em;
-	margin: auto;
-/*	outline: 1px solid red;*/
-
-}
 .draggable{
-/*	outline: 1px solid yellow;*/
 	list-style-type: none;
-	width: 90vw;
-	text-align: justify;
+	width: 100vw;
+/*	text-align: justify;*/
 	font-family: "Baskerville", "Times New Roman", serif;
+	outline: 1px solid yellow;
+}
+ul{
+	margin: 50px;
 }
 .draggable li{
 	border:1px solid black;
 	display: inline;
 	padding: 8px;
-	line-height: 2.7em;
+	line-height: 2.9em;
+	outline: 1px solid red;
 }
-p a{
+/*p a{
 	text-decoration: none;
 	color: black;
 	margin-left: 40px;
@@ -32,12 +47,12 @@ p a{
 }
 p a:visited{
 	color: black;
-}
-.poem_container{
-	width: 80vw;
+}*/
+/*.poem_container{
+	width: 100vw;
 	display: -webkit-flex;
 	margin: 0 auto;
-	/*outline: 1px solid yellow;*/
+	outline: 1px solid yellow;
 	}
 .frost{
 	width: 50vw;
@@ -47,17 +62,14 @@ p a:visited{
 .mckay{
 	width: 50vw;
 	font-family: "Baskerville", "Times New Roman", serif;
-	margin-left: 50px;
 }
 .poet{
 	font-family: "Franklin Gothic Heavy", sans-serif;
 }
 .container_1{
 	width: 50vw;
-	margin-left: 50px;
 }
 .container_2{
 	width: 50vw;
-	margin-left: 50px;
 }
-
+*/
