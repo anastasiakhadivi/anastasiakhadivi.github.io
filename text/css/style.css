@@ -29,7 +29,7 @@ body{
 }
 /*Full poems*/
 .poem_container{
-/*	outline: 1px solid pink;*/
+	/*outline: 1px solid pink;*/
 	display: -webkit-flex;
 	margin-right: 50px;
 	margin-left: 50px;
