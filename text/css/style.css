@@ -1,18 +1,11 @@
 body{
 	font-family: "Baskerville", "Times New Roman", serif;
 	margin: 0;
-	/*font-size: 16px;*/
 }
-.original_poems{
-	border:1px solid black;
-	padding:8px;
-	color: black;
-	text-decoration: none;
-	margin-top: 20px;
-	margin-left: 50px;
-	margin-right: 50px;
-/*	outline: 1px solid red;*/
-	display: inline-block;
+/*Viewheigh Wrapper*/
+.viewheight_wrapper{
+	height: 100vw;
+/*	outline: 1px solid purple;*/
 }
 /*Word bank*/
 .draggable{
@@ -20,7 +13,7 @@ body{
 	list-style-type: none;
 	text-align: justify;
 	padding: 0;
-	margin: 50px 50px 500px 50px;
+	margin: 50px 50px 0 50px;
 }
 .draggable li{
 	border:1px solid black;
@@ -28,25 +21,22 @@ body{
 	padding:8px;
 	line-height: 2.9em;
 }
-/*Full poems*/
-.poem_container{
-	/*outline: 1px solid pink;*/
-	display: -webkit-flex;
-	margin-right: 50px;
-	margin-left: 50px;
-
-}
-.frost, .mckay{
-/*	outline: 1px solid red;*/
-	width: 50vw;
-}
-.frost{
-	margin-left: 15%;
-}
-.mckay{
-
-}
 .draggable li a{
 	color: black;
 	text-decoration: none;
+}
+/*Full poems*/
+.poem_container{
+/*	outline: 1px solid pink;*/
+	display: -webkit-flex;
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+.frost, .mckay{
+	/*outline: 1px solid red;*/
+	width: 50%;
+}
+.frost{
+	margin-left: 15%;
 }
