@@ -1,5 +1,5 @@
 $(function(){
-	alert("hey");
+	// alert("hey");
 	$(".menu").click(function(){
 		$(".new_nav").show();
 	})

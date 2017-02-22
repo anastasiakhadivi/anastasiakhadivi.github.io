@@ -35,7 +35,7 @@ a:hover{
 .new_nav{
 	display: none;
 	line-height: 140%;
-	outline: 1px solid yellow;
+/*	outline: 1px solid yellow;*/
 }
 /*image container*/
 .images{
@@ -81,7 +81,7 @@ a:hover{
 		opacity: 1;
 	}
 	.images img{
-		outline: 1px solid blue;
+		/*outline: 1px solid blue;*/
 		width: 90vw;
 		height: auto;
 	}
