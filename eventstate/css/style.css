@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+}
+body{
+  transition: background-color 0.5s linear;
+}
+.dark{
+  background-color: black;
+}
+h1{
+  color: blue;
+  font-size: 80px;
+  position: absolute;
+  top: 20px;
+  left:20px;
+}
+.button {
+  position: relative;
+/*  margin: auto;*/
+  top: 400px;
+  left:10px;
+  width: 120px;
+  height: 358px;
+  border-radius: 8px;
+  background-image: url("../img/switch-off.png");
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.focused{
+ /* background-color: background-color: rgb(120, 120, 120);
+  border:1px dotted deepskyblue;*/
+}
+.active{
+  background-image: url("../img/switch-on.png");
+  top: 50px;
+  left:400px;
+/*  border:1px solid red;*/
+}
+/*
+  switch img
+  width: 120px;
+  height: 358px;
+*/
