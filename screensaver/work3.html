@@ -4,8 +4,12 @@
 		<title></title>
 		<style>
 			body{
-				background-color: #c1d4f2;
 				height: 100%;
+				background-color: blue;
+				animation: background_color;
+				animation-duration: 60s;
+				animation-direction: alternate;
+
 			}
 			.circle_container{
 				width: 100vw;
@@ -27,7 +31,7 @@
 
 				/*margin:0 auto;*/
 			}
-			.circle:first-child{
+/*			.circle:first-child{
 				outline: 1px solid blue;
 			}
 			.circle:nth-child(2){
@@ -38,6 +42,42 @@
 			}
 			.circle:nth-child(4){
 				outline: 1px solid pink;
+			}*/
+			@keyframes background_color{
+				0%{
+					background-color: #c1d4f2;
+				}
+				10%{
+					background-color: #b7d3ff;
+				}
+				20%{
+					background-color: #a9c9fc;
+				}
+				30%{
+					background-color: #8fabd8;
+				}
+				40%{
+					background-color: #a7bfe5;
+				}
+				50%{
+					background-color: #cfdff9;
+				}
+				60%{
+					background-color: #bfdff2;
+				}
+				70%{
+					background-color: #b1def9;
+				}
+				80%{
+					background-color: #a8ddff;
+				}
+				90%{
+					background-color: #afdfff;
+				}
+				100%{
+					background-color: #9dd4f9;
+				}
+
 			}
 		</style>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -92,6 +132,7 @@
 				}
 
 				function animateCircles(){
+					console.log('circle 1 only');
 					var deferred = $.Deferred();
 					$(".circle:first-child").animate({
 						'width' : '30vw',
