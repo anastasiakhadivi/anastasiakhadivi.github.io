@@ -1,0 +1,134 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background: -moz-linear-gradient(top, #dee9f9 0%, #7db9e8 100%); 
+  background: -webkit-linear-gradient(top, #dee9f9 0%,#7db9e8 100%); 
+  background: linear-gradient(to bottom, #dee9f9 0%,#7db9e8 100%); 
+}
+
+
+#bar {
+  position: fixed;
+  bottom: 0;
+  height: 150px;
+  width: 100%;
+  line-height: 150px;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  z-index: 99;
+}
+
+
+#balloon-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+
+.balloon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin: 12px 6px;
+  background-image: url("../img/balloon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  float: left;
+  animation: drift;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.popped{
+  opacity: 0;
+  pointer-events: none;
+}
+.big{
+  width: 80px;
+  height: 80px;
+}
+.ending{
+  font-family: "Helvetica", "Arial", "sans-serif";
+}
+.ending h1{
+  height: 400px
+  width:400px;
+  color: deepskyblue;
+  font-size: 90px;
+/*  outline: 7px solid yellow;*/
+  width: 60%;
+  position: relative;
+  float: left;
+  animation: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.ending h2{
+/*  height: 400px
+  width:400px;*/
+  color: pink;
+  font-size: 90px;
+/*  outline: 7px solid yellow;*/
+  width: 60%;
+  position: relative;
+  float: left;
+  animation: jiggle;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes drift {
+    0%{
+      left: 0;
+    }
+    50%{
+      left: -10px;
+    }
+    100%{
+      left: 0;
+    }
+}
+
+@keyframes bounce {
+    0%{
+      left: 10px;
+    }
+    50%{
+      left: 300px;
+      top: 200px;
+      color: pink;
+    }
+    100%{
+      left: 700px;
+      top: 100px;
+      color: green;
+      font-size: 200px;
+}
+}
+@keyframes jiggle {
+    0%{
+      left: 50px;
+      color: pink;
+    }
+    50%{
+      left: 600px;
+      top: 40px;
+      color: pink;
+    }
+    100%{
+      left: 800px;
+      top: 10px;
+      color: orange;
+      font-size: 200px;
+}
+}
+

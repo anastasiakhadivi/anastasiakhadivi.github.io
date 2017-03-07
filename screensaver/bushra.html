@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<title>
+			
+		</title>
+	</head>
+	<script>
+
+		$(document).ready(function() {
+			console.log("I'm working");
+			$(".div1").addClass("div1b");
+		});
+	</script>
+	<style>
+		body{
+/*			transition: all 8s ease-in-out;*/
+	}
+	.div1{
+		height: 10vw;
+		width:100vw;
+			background: -webkit-linear-gradient(top, black 40% , blue);
+			background-repeat: no-repeat;
+			animation: color;
+  			animation-duration: 5s;
+  			animation-iteration-count: 1;
+	}
+	.div1b{
+		height: 10vw;
+		width:100vw;
+			background: -webkit-linear-gradient(top, black 10% , blue);
+			background-repeat: no-repeat;
+			animation: color;
+  			animation-duration: 5s;
+  			animation-iteration-count: 1;
+	}
+	.div2{
+		height: 10vw;
+			width:100vw;
+			background: -webkit-linear-gradient(top, blue , orange );
+			background-repeat: no-repeat;
+	}
+	.div3{
+		height: 10vw;
+			width:100vw;
+			background: -webkit-linear-gradient(top, orange , black);
+			background-repeat: no-repeat;
+	}
+	.div4{
+		height: 10vw;
+			width:100vw;
+			background: -webkit-linear-gradient(top, black , blue);
+			background-repeat: no-repeat;
+	}
+	.div5{
+		height: 10vw;
+			width:100vw;
+			background: -webkit-linear-gradient(top, blue , green);
+			background-repeat: no-repeat;
+	}
+
+
+	/*@keyframes color {
+    50%{
+      background: -webkit-linear-gradient(top, black 5% , blue );
+			background-repeat: no-repeat;
+    }*/
+	</style>
+	<body>
+		<div class="div1">
+			
+		</div>
+		<div class="div2">
+			
+		</div>
+		<div class="div3">
+			
+		</div>
+		<div class="div4"></div>
+		<div class="div5"></div>
+	</body>
+</html>
