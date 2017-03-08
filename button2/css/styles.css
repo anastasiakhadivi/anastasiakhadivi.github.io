@@ -1,0 +1,18 @@
+html, body{
+	 cursor: url('../images/wind.png'), auto;	
+}
+.container{
+	background-image: url("../images/deflated.jpg");
+	height:300px;
+	margin: 0;
+	width: 100vw;
+	position: absolute;
+/*	outline: 1px solid blue;*/
+/*	background-size: contain;*/
+  	background-repeat: no-repeat;
+  	background-position: center center;
+ 	/*float: left;*/
+ 	margin-top: 5%;
+ 	transform: rotate(90deg);
+
+}
