@@ -39,6 +39,12 @@ if (popCount === numOfBalloons) {
 
 }
 
+var popCount = 0;
+popCount = popCount + 1;
+if (popCount === numOfBalloons) {
+	$("body").html("<span class='ending'><h1>Winner</h1><h2>!</h2></span>" );
+
+}
 
 // }else if (popCount === 5){
 // alert("keep going");

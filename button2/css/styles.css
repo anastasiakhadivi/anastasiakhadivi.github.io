@@ -1,18 +1,26 @@
 html, body{
 	 cursor: url('../images/wind.png'), auto;	
 }
-.container{
+.balloon{
 	background-image: url("../images/deflated.jpg");
 	height:300px;
 	margin: 0;
 	width: 100vw;
-	position: absolute;
-/*	outline: 1px solid blue;*/
-/*	background-size: contain;*/
+	position: relative;
   	background-repeat: no-repeat;
   	background-position: center center;
- 	/*float: left;*/
  	margin-top: 5%;
  	transform: rotate(90deg);
+}
+.motivational{
+	margin: auto;
+	margin-top:20px;
+	height: 120px;
+	width: 120px;
+	border: 1px solid yellow;
+	border-radius: 50%;
+	text-align: center;
+}
+.click_1{
 
 }
