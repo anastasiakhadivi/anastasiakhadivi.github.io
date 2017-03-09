@@ -5,7 +5,7 @@ $(document).ready(function(){
 
 
 				for (var i=0; i<numOfCircle; i=i+1)
-					$(".circle_container").append("<div class='circle'></div>");
+					$(".circle_container").append("<div id='circle-" + i + "' class='circle'></div>");
 
 				$(".circle:nth-child(2),.circle:nth-child(3), .circle:nth-child(4)").hide();
 
