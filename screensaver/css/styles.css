@@ -1,6 +1,10 @@
 body{
-	background-color: #a2c3f9;
 	height: 100%;
+	animation-name: backgroundcolor;
+	animation-duration: 300s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+
 }
 .circle_container{
 	width: 100vw;
@@ -28,4 +32,13 @@ body{
 	border-radius: 50%;
 	border:4px solid white;
 	position: absolute;
+}
+
+@keyframes backgroundcolor{
+	0%{
+		background-color: #a2c3f9;
+	}
+	100%{
+		background-color: blue;
+	}
 }
