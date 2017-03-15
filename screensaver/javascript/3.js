@@ -8,36 +8,18 @@ $(document).ready(function(){
 
 		// circle1();
 		function circle1(){
-			$("#circle-0").addClass("show");
-			$("#circle-0").animate({
-				'width' : '30vw',
-				'height': '30vw'
-			},2000, 'linear')
-			.animate({
-				'width' : '32vw',
-				'height' : '32vw',
-				'opacity' : '.4'
-			}, 1000, 'linear')
-			.animate({
-				'width': '30vw',
-				'height':'30vw',
-				'opacity' : '1'
-			},1000, 'linear')
-			.animate({
-				'width':'32vw',
-				'height':'32vw',
-				'opacity':'.4'
-			},1000, 'linear')
-			.animate({
-				'width':'30vw',
-				'height':'30vw',
-				'opacity':'1'
-			},1000, 'linear')
-			.animate({
-				'width' : '1vw',
-				'height':'1vw'
-			},6000, 'linear', circle2);
-			console.log("circle 1 only");
+			$("#circle-0").addClass("show")
+			// $("#circle-0").animate({
+			// 	'width' : '30vw',
+			// 	'height': '30vw'
+			// },2000, 'linear')
+			// .delay(4000)
+			// .animate({
+			// 	'width' : '1vw',
+			// 	'height':'1vw'
+			// },6000, 'linear', circle2);
+			// console.log("circle 1 only");
+			.addClass("circle-0-animation", circle2);
 		}
 
 		function circle2(){
@@ -46,55 +28,17 @@ $(document).ready(function(){
 				'width' : '30vw',
 				'height': '30vw'
 			},2000, 'linear')
-			.animate({
-				'width' : '32vw',
-				'height' : '32vw',
-				'opacity' : '.4'
-			}, 1000, 'linear')
-			.animate({
-				'width': '30vw',
-				'height':'30vw',
-				'opacity' : '1'
-			},1000, 'linear')
-			.animate({
-				'width':'32vw',
-				'height':'32vw',
-				'opacity':'.4'
-			},1000, 'linear')
-			.animate({
-				'width':'30vw',
-				'height':'30vw',
-				'opacity':'1'
-			},1000, 'linear')
+			.delay(4000)
 			.animate({
 				'width' : '1vw',
 				'height':'1vw'
-			},6000, 'linear', circle2);
+			},6000, 'linear');
 			$("#circle-1").addClass("show");
 			$("#circle-1").animate({
 				'width' : '35vw',
 				'height': '35vw'
 			},2000, 'linear')
-			.animate({
-				'width' :'37vw',
-				'height':'37vw',
-				'opacity':'.4'
-			}, 1000, 'linear')
-			.animate({
-				'width' :'35vw',
-				'height':'35vw',
-				'opacity':'1'
-			},1000,'linear')
-			.animate({
-				'width' :'37vw',
-				'height':'37vw',
-				'opacity':'.4'
-			}, 1000, 'linear')
-			.animate({
-				'width' :'35vw',
-				'height':'35vw',
-				'opacity':'1'
-			},1000,'linear')
+			.delay(4000)
 			.animate({
 				'width' : '1vw',
 				'height':'1vw'
@@ -107,58 +51,17 @@ $(document).ready(function(){
 				'width' : '30vw',
 				'height': '30vw'
 			},2000, 'linear')
-			.animate({
-				'width' : '32vw',
-				'height' : '32vw',
-				'opacity' : '.4'
-			}, 1000, 'linear')
-			.animate({
-				'width': '30vw',
-				'height':'30vw',
-				'opacity' : '1'
-			},1000, 'linear')
-			.animate({
-				'width':'32vw',
-				'height':'32vw',
-				'opacity':'.4'
-			},1000, 'linear')
-			.animate({
-				'width':'30vw',
-				'height':'30vw',
-				'opacity':'1'
-			},1000, 'linear')
+			.delay(4000)
 			.animate({
 				'width' : '1vw',
 				'height':'1vw'
-			},6000, 'linear', circle2);
+			},6000, 'linear');
+			// $("#circle-1").addClass("show");
 			$("#circle-1").animate({
 				'width' : '35vw',
 				'height': '35vw'
 			},2000, 'linear')
-			.animate({
-				'width' :'37vw',
-				'height':'37vw',
-				'opacity':'.4'
-			}, 1000, 'linear')
-			.animate({
-				'width' :'35vw',
-				'height':'35vw',
-				'opacity':'1'
-			},1000,'linear')
-			.animate({
-				'width' :'37vw',
-				'height':'37vw',
-				'opacity':'.4'
-			}, 1000, 'linear')
-			.animate({
-				'width' :'35vw',
-				'height':'35vw',
-				'opacity':'1'
-			},1000,'linear')
-			.animate({
-				'width' : '1vw',
-				'height':'1vw'
-			},6000, 'linear')
+			.delay(4000)
 			.animate({
 				'width' : '1vw',
 				'height':'1vw'
@@ -168,26 +71,7 @@ $(document).ready(function(){
 				'width' : '40vw',
 				'height': '40vw'
 			}, 2000, 'linear')
-			.animate({
-				'width' :'42vw',
-				'height':'42vw',
-				'opacity':'.4'
-			},1000, 'linear')
-			.animate({
-				'width' :'40vw',
-				'height':'40vw',
-				'opacity':'1'
-			},1000, 'linear')
-			.animate({
-				'width' :'42vw',
-				'height':'42vw',
-				'opacity':'.4'
-			},1000, 'linear')
-			.animate({
-				'width' :'40vw',
-				'height':'40vw',
-				'opacity':'1'
-			},1000, 'linear')
+			.delay(4000)
 			.animate({
 				'width' : '1vw',
 				'height': '1vw'
@@ -199,30 +83,11 @@ $(document).ready(function(){
 				'width' : '30vw',
 				'height': '30vw'
 			},2000, 'linear')
-			.animate({
-				'width' : '32vw',
-				'height' : '32vw',
-				'opacity' : '.4'
-			}, 1000, 'linear')
-			.animate({
-				'width': '30vw',
-				'height':'30vw',
-				'opacity' : '1'
-			},1000, 'linear')
-			.animate({
-				'width':'32vw',
-				'height':'32vw',
-				'opacity':'.4'
-			},1000, 'linear')
-			.animate({
-				'width':'30vw',
-				'height':'30vw',
-				'opacity':'1'
-			},1000, 'linear')
+			.delay(4000)
 			.animate({
 				'width' : '1vw',
 				'height':'1vw'
-			},6000, 'linear', circle2);
+			},6000, 'linear');
 			$("#circle-1").animate({
 				'width' : '35vw',
 				'height': '35vw'

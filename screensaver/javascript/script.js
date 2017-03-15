@@ -15,10 +15,6 @@ $(document).ready(function(){
 			},2000, 'linear')
 			.delay(4000)
 			.animate({
-				'width': '31vw',
-				'height':'31vw'
-			},1000, 'linear')
-			.animate({
 				'width' : '1vw',
 				'height':'1vw'
 			},6000, 'linear', circle2);

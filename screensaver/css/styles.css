@@ -1,7 +1,7 @@
 body{
 	height: 100%;
 	animation-name: back-animation;
-	animation-duration: 10s;
+	animation-duration: 60s;
 	animation-direction: normal;
 	animation-iteration-count: infinite;
 
@@ -33,21 +33,13 @@ body{
 	border:4px solid white;
 	position: absolute;
 }
-
-/*.pulse{
-	border-radius: 50%;
-	opacity: 0;
-	border:1px solid white;
-	height: 50vw;
-	width: 50vw;
-	transition-duration: 1s;
-
-
+.circle-0-animation{
+	animation-name: animation-circle-0;
+	animation-duration: 1s;
+	animation-iteration-count: 4;
+	animation-direction: alternate;
 }
-.pulse_show{
-	opacity: .2;
-}
-*/
+
 @keyframes back-animation{
 	0%{
 		background-color: #a2c3f9;
@@ -59,8 +51,15 @@ body{
 		background-color: #a2c3f9;
 	}
 }
-/*@keyframes pulse-animation{
-	100%{
-		opacity: .2;
+@keyframes animation-circle-0{
+	0%{
+		width: 30vw;
+		height: 30vw;
+		opacity: 1;
 	}
-}*/
+	100%{
+		width: 32vw;
+		height: 32vw;
+		opacity: .4;
+	}
+}
