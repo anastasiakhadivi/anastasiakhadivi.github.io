@@ -1,8 +1,8 @@
 body{
 	height: 100%;
-	animation-name: backgroundcolor;
-	animation-duration: 300s;
-	animation-direction: alternate;
+	animation-name: back-animation;
+	animation-duration: 10s;
+	animation-direction: normal;
 	animation-iteration-count: infinite;
 
 }
@@ -34,11 +34,33 @@ body{
 	position: absolute;
 }
 
-@keyframes backgroundcolor{
+/*.pulse{
+	border-radius: 50%;
+	opacity: 0;
+	border:1px solid white;
+	height: 50vw;
+	width: 50vw;
+	transition-duration: 1s;
+
+
+}
+.pulse_show{
+	opacity: .2;
+}
+*/
+@keyframes back-animation{
 	0%{
 		background-color: #a2c3f9;
 	}
+	50%{
+		background-color: #0563ff;
+	}
 	100%{
-		background-color: blue;
+		background-color: #a2c3f9;
 	}
 }
+/*@keyframes pulse-animation{
+	100%{
+		opacity: .2;
+	}
+}*/
