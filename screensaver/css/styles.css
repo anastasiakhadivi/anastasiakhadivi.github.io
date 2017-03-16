@@ -1,7 +1,7 @@
 body{
 	height: 100%;
 	animation-name: back-animation;
-	animation-duration: 60s;
+	animation-duration: 90s;
 	animation-direction: normal;
 	animation-iteration-count: infinite;
 
@@ -35,9 +35,9 @@ body{
 }
 .circle-0-animation{
 	animation-name: animation-circle-0;
-	animation-duration: 1s;
-	animation-iteration-count: 4;
-	animation-direction: alternate;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+
 }
 
 @keyframes back-animation{
