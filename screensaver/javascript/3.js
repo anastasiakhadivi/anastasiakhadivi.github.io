@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 		// circle1();
 		function circle1(){
-			$("#circle-0").addClass("show")
+			$("#circle-0").addClass("show", circle1b);
 			// $("#circle-0").animate({
 			// 	'width' : '30vw',
 			// 	'height': '30vw'
@@ -19,7 +19,10 @@ $(document).ready(function(){
 			// 	'height':'1vw'
 			// },6000, 'linear', circle2);
 			// console.log("circle 1 only");
-			.addClass("circle-0-animation", circle2);
+			// $("#circle-0").addClass("circle-0-animation", circle2);
+		}
+		function circle1b(){
+			$("#circle-0").addClass("circle-0-animation");
 		}
 
 		function circle2(){
