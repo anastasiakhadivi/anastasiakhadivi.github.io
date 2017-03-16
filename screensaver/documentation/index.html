@@ -16,25 +16,36 @@
 				margin-bottom: 20px;
 			}
 			video{
-				width: 60vw;
+				width: 50vw;
 				float: left;
 				margin-bottom: 20px;
 /*				margin-top: 20px;*/
 			}
-			h1{
+			.videos{
+				outline: 1px solid red;
+				width: 50vw;
+				float: left;
+			}
+			.writing{
+				width: 38vw;
+				outline: 1px solid red;
+				float: right;
+				margin-left: 20px;
 			}
 		</style>
 	</head>
 	<body>
 		<h1>Screensaver<br> Documentation</h1>
-		<video controls>
-	  		<source src="../images/screensaver.mov" type="video/mp4">
-		</video>
-		<video controls>
-	  		<source src="../images/screensaver-pulse.mov" type="video/mp4">
-		</video>
+		<div class="videos">
+			<video controls>
+		  		<source src="../images/screensaver.mov" type="video/mp4">
+			</video>
+			<video controls>
+		  		<source src="../images/screensaver-pulse.mov" type="video/mp4">
+			</video>
+		</div>
 		<div class="writing">
-			<p></p>
+			<p>hi</p>
 		</div>
 	</body>
 </html>
