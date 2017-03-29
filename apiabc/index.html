@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<style type="text/css">
+			body{
+				font-family: "Helvetica";
+				}
+			.report_container{
+				width: 40%;
+				float: left;
+				margin-left: 10px;
+			}
+			a{
+				color: teal;
+			}
+			.photo_container{
+				width: 50%;
+				/*outline: 1px solid red;*/
+				float: right;
+				margin-right: 10px;
+				margin-top: 30px;
+			}
+			.photo_container img{
+				width: 100%;
+
+			}
+			img{
+				/*outline: 1px solid black;*/
+				width: 90%;
+			}
+			ul{
+				padding-left:10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="report_container">
+			<h1>News API</h1>
+			<p>Google owns the company -- I didn't know this when I started.</p>
+			<p>News API returns a collection of top news from a wide range of sources. Including CNN, MTV and ESPN.  It holds the "author", "title", "description", "url", as well as "urlToImage" for the most recent articles. You have the option of only pulling from one news source if you choose.</p>
+			<p>Ideas: One idea I have is to compare this news API with another to see what each one thinks it most important. Another idea, that I think would  be more interesting would be to compare this API with two single news source APIs from different political views to see a 'well rounded', hopefully truthful news interface. For example, a MSNBC API, a FOX API and this News API.s</p>
+			<p>Documentation:<a href="https://newsapi.org/#documentation">https://newsapi.org/#documentation</a></p>
+			<p>URL to access the API: <a href="https://newsapi.org/v1/articles?source=the-next-web&sortBy=latest&apiKey={your_key}">https://newsapi.org/v1/articles?source=the-next-web&sortBy=latest&apiKey={your_key}</a></p>
+			<p>Getting a key:<a href="https://newsapi.org/">https://newsapi.org/</a><br> The keys/signup are completely free </p> 
+			<br>
+			<ul><h2>Other API's I looked into:</h2>
+				<li>Pokemon API, which stores all the pokemon and their powers, hometown, etc</li>
+				<li>Joke API, which pulls random jokes</li>
+				<li>The Yoda API, which turns writing into "yoda speak"</li>
+				<li>Twilio, chat between clients and company in real time</li>
+				<li>NYT API, which pulls articles from NYT, or allows users to search for subjects</li>
+			</ul>
+		</div>
+		<div class="photo_container">
+			<img src="newsAPI.png">
+		</div>
+		<img src="cnn_callback.png">
+
+	</body>
+</html>
