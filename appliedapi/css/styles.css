@@ -1,0 +1,59 @@
+footer{
+/*	outline: 1px solid black;*/
+/*	position: fixed;
+	bottom:0;*/
+	color: red;
+	font-size: 2em;
+}
+
+.joke_container{
+	width: 60%;
+	margin-bottom: 30px;
+}
+.new_joke{
+	font-size: 2em;
+	color: blue;
+}
+.laughing{
+	opacity: 0;
+	margin-top: 50px;
+	font-size: 3em;
+}
+
+.ha_ha{
+	color: red;
+	opacity: 1;
+	animation-name: dancing_animation;
+	animation-iteration-count: 1;
+	animation-direction: alternate;
+	animation-duration: 8s;
+	position: fixed;
+}
+
+@keyframes dancing_animation{
+	0%{
+		top: 100px;
+		left: 400px;
+
+	}
+	100%{
+		top: 50px;
+		left: 10px;
+	}
+}
+@keyframes laughing_animation{
+	0%{
+		left: 20px;
+		top: 100px;
+		opacity: 1;
+	}
+
+	50%{
+		left: 100px;
+		top: 20px;
+	}
+	100%{
+		left: 400px;
+		top: 300px;
+	}
+}
