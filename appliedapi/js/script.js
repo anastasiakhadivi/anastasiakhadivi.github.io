@@ -83,6 +83,7 @@ $(document).ready(function(){
     $(".joke").html(data["message"]).addClass("new_joke");
 
 $(".new").on("click", function(){
+  
   $(".laughing").toggleClass("ha_ha");
   console.log("working");
 })
