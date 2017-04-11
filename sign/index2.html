@@ -2,13 +2,43 @@
 	<html>
 	<head>
 		<title></title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 		<script type="text/javascript">
-			
+			$(document).ready(function(){
+				// alert("working");
+				$("h1").draggable();
+				// $(".container_frame").draggable();
+				// $("h1").on("click", function(){
+
+				// })
+				// $(".twins , .thersea, .somebody").hide();
+
+				// $(".poetry").hover(function(){
+				// 	$(".twins").show();
+				// })
+				// $(".twins").hover(function(){
+				// 	$(".thersea").show();
+				// })
+				// $(".twins").hover(function(){
+				// 	$(".thersea").show();
+				// })
+				// $(".thersea").hover(function(){
+				// 	$(".somebody").show();
+				})
+
 		</script>
 		<style>
+			body{
+				animation-name: back;
+				animation-direction: alternate;
+				animation-duration: 4s;
+				animation-iteration-count: infinite;
+			}
 			.logo_container{
 				width: 100%;
 			}
+
 			h1{
 				font-family: "futura";
 				font-weight: 700;
@@ -16,58 +46,107 @@
 /*				outline: 1px solid red;*/
 				margin-top: 0;
 				line-height: .8em;
-				position: absolute;
+/*				position: absolute;
 				left: 20px;
 				top: 0;
-				z-index: auto;
+				z-index: auto;*/
 				color: pink;
 				transform: rotate(-3deg);
 				animation-name: color;
 				animation-direction: alternate;
 				animation-duration: 10s;
 				overflow: hidden;
+				animation-iteration-count: infinite;
+				position: fixed;
 			}
-			.poetry{
+			h1:hover{
+				cursor: crosshair;
+			}
+/*			.poetry{
+				width: 1280px;
+			    height: 786px;
+			    -ms-transform: scale(0.35);
+			    -moz-transform: scale(0.35);
+			    -o-transform: scale(0.35);
+			    -webkit-transform: scale(0.35);
+			    transform: scale(0.35);
+			    -ms-transform-origin: 0 0;
+			    -moz-transform-origin: 0 0;
+			    -o-transform-origin: 0 0;
+			    -webkit-transform-origin: 0 0;
+			    transform-origin: 0 0;
+			    margin-bottom: 10px;
+			}*/
+			iframe{
+				width: 1280%;
+    			height: 786px;
+    			border: 0;
+			    -ms-transform: scale(0.5);
+			    -moz-transform: scale(0.5);
+			    -o-transform: scale(0.5);
+			    -webkit-transform: scale(0.5);
+			    transform: scale(0.5);
+				 -ms-transform-origin: 0 0;
+			    -moz-transform-origin: 0 0;
+			    -o-transform-origin: 0 0;
+			    -webkit-transform-origin: 0 0;
+			    transform-origin: 0 0;
+			}
+/*			.twins{
+				width: 1280px;
+    			height: 786px;
+			    -ms-transform: scale(0.5);
+			    -moz-transform: scale(0.5);
+			    -o-transform: scale(0.5);
+			    -webkit-transform: scale(0.5);
+			    transform: scale(0.5);
+				 -ms-transform-origin: 0 0;
+			    -moz-transform-origin: 0 0;
+			    -o-transform-origin: 0 0;
+			    -webkit-transform-origin: 0 0;
+			    transform-origin: 0 0;
+			    margin-bottom: 10px;
+			}
+			.thersea{
 				position: absolute;
-				top: 35%;
+				top: 65%;
+				left: 2%;
 				z-index: auto;
 				width: 1280px;
-    height: 786px;
-    border: 0;
-
-    -ms-transform: scale(0.25);
-    -moz-transform: scale(0.25);
-    -o-transform: scale(0.25);
-    -webkit-transform: scale(0.25);
-    transform: scale(0.25);
-
-    -ms-transform-origin: 0 0;
-    -moz-transform-origin: 0 0;
-    -o-transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform-origin: 0 0;
+    			height: 786px;
+    			border: 0;
+			    -ms-transform: scale(0.5);
+			    -moz-transform: scale(0.5);
+			    -o-transform: scale(0.5);
+			    -webkit-transform: scale(0.5);
+			    transform: scale(0.5);
+				 -ms-transform-origin: 0 0;
+			    -moz-transform-origin: 0 0;
+			    -o-transform-origin: 0 0;
+			    -webkit-transform-origin: 0 0;
+			    transform-origin: 0 0;
+			    margin-bottom: 10px;
 			}
-			.twins{
+			.somebody{
 				position: absolute;
-				top: 35%;
-				left: 60%;
+				top: 90%;
+				left: 50%;
 				z-index: auto;
-				width: 1280px;
-    height: 786px;
-    border: 0;
-
-    -ms-transform: scale(0.25);
-    -moz-transform: scale(0.25);
-    -o-transform: scale(0.25);
-    -webkit-transform: scale(0.25);
-    transform: scale(0.25);
-
-    -ms-transform-origin: 0 0;
-    -moz-transform-origin: 0 0;
-    -o-transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform-origin: 0 0;
-			}
+				width: 1280%;
+    			height: 786px;
+    			border: 0;
+			    -ms-transform: scale(0.5);
+			    -moz-transform: scale(0.5);
+			    -o-transform: scale(0.5);
+			    -webkit-transform: scale(0.5);
+			    transform: scale(0.5);
+				 -ms-transform-origin: 0 0;
+			    -moz-transform-origin: 0 0;
+			    -o-transform-origin: 0 0;
+			    -webkit-transform-origin: 0 0;
+			    transform-origin: 0 0;
+			    margin-bottom: 10px;
+			}*/
 			@keyframes color{
 				0%{
 					color:#4286f4;
@@ -100,18 +179,57 @@
 					color: #efcc1e;
 				}
 			}
+			@keyframes back{
+				0%{
+					background-color:#4286f4;
+				}
+				20%{
+					background-color:#1fef8e; 
+				}
+				30%{
+					background-color: #791eef;
+				}
+				40%{
+					background-color: #ef1ed6;
+				}
+				50%{
+					background-color: #ef1e59;
+				}
+				60%{
+					background-color: #1e94ef;
+				}
+				70%{
+					background-color: #1eef59;
+				}
+				80%{
+					background-color: #1eebef;
+				}
+				90%{
+					background-color: #97ef1e;
+				}
+				100%{
+					background-color: #efcc1e;
+				}
+			}
+			.container_frame{
+				outline: 1px solid black;
+				padding: 10px;
+			}
 		</style>
 	</head>
 	<body>
 		<div class="logo_container">
 			<h1>Beyond<br>the<br>Bowery</h1>
 		</div>
-		<div class="site_frames">
-			<iframe class ="poetry" src="http://media.rhizome.org/alex-turgeon-better-homes-gardens-revisited/files/index.html"></iframe>
-			<!-- <p class="poetry_text">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc est orci, euismod ut dictum nec, ultricies a turpis. Nunc commodo ipsum pharetra, bibendum ipsum at, efficitur dui. Sed ligula dolor, porta pretium tincidunt nec, euismod quis tortor. Nam non metus nec ex suscipit efficitur. Nunc viverra, nunc nec scelerisque tempus, purus dui egestas felis, et aliquam massa libero sit amet ligula. Fusce cursus libero orci. Aenean vel nunc eu tortor elementum facilisis. Nulla facilisi. Vestibulum faucibus lacus ut tempor vestibulum. Sed venenatis purus quis enim sagittis, a euismod quam lobortis. Morbi lobortis magna eget gravida pellentesque. Sed fringilla est sit amet dapibus molestie. Vivamus ut justo purus.
-			</p> -->
-			<iframe class="twins" src="http://archive.rhizome.org/frontpage-exhibitions/crespo.html"></iframe>
-		</div>
+			<div class="poetry_frame">
+				<iframe class ="poetry" src="http://media.rhizome.org/alex-turgeon-better-homes-gardens-revisited/files/index.html"></iframe>
+				<iframe class="twins" src="http://archive.rhizome.org/frontpage-exhibitions/crespo.html"></iframe>
+				<iframe class ="thersea" src="http://archive.rhizome.org/theresa-duncan-cdroms/emulators/"></iframe>
+				<iframe class ="somebody" src="http://somebodyapp.com/"></iframe>
+			</div>
+
+<!-- 			<div class="container_frame">
+				<iframe class ="hi" src="http://somebodyapp.com/"></iframe>
+			</div> -->
 	</body>
 </html>
