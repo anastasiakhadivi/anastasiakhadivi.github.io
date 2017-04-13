@@ -5,12 +5,14 @@ body{
 	animation-direction: alternate;
 	animation-duration: 4s;
 	animation-iteration-count: infinite;
-	outline: 1px solid yellow;
+	mix-blend-mode: multiply;
+/*	outline: 1px solid yellow;*/
 	}
 h1{
+	top: 0;
 	font-family: "futura";
 	font-weight: 700;
-	font-size: 19em;
+	font-size: 22.2vw;
 	margin-top: 0;
 	line-height: .8em;
 	color: pink;
@@ -21,13 +23,53 @@ h1{
 	overflow: hidden;
 	animation-iteration-count: infinite;
 	position: fixed;
-	mix-blend-mode: multiply;
-	outline: 1px solid blue;
+/*	mix-blend-mode: multiply;*/
+	z-index: -1;
+/*	outline: 1px solid blue;*/
 }
 .frame_container{
-	width: 60vw;
-	outline: 1px solid red;
+	width: 70%;
+/*	outline: 1px solid red;*/
+	margin-bottom: 20%;
+	margin-left: 8%;
+	margin-top: 8%;
+	z-index: 1;
+/*	mix-blend-mode: multiply;*/
 }
 iframe{
 	width: 100%;
+	mix-blend-mode: multiply;
 }
+@keyframes back{
+	0%{
+		background-color:#4286f4;
+	}
+	20%{
+		background-color:#1fef8e; 
+	}
+	30%{
+		background-color: #791eef;
+	}
+	40%{
+		background-color: #ef1ed6;
+	}
+	50%{
+		background-color: #ef1e59;
+	}
+	60%{
+		background-color: #1e94ef;
+	}
+	70%{
+		background-color: #1eef59;
+	}
+	80%{
+		background-color: #1eebef;
+	}
+	90%{
+		background-color: #97ef1e;
+	}
+	100%{
+		background-color: #efcc1e;
+	}
+}
+
