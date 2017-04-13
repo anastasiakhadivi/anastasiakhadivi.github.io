@@ -1,8 +1,7 @@
 $(document).ready(function(){
-	// alert("working");
-	$("h1").draggable();
-
-	$("iframe").hover(function(){
-		$(this).toggleClass("hover_on");
-	})
+	// alert("hey");
+	var width = $(".frame_1").innerWidth();
+	// alert(width);
+	var height = (260 * width) /420;
+	$(".frame_1").innerHeight(height);
 })

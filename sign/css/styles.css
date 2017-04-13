@@ -1,26 +1,12 @@
 body{
+	width: 100vw;
+	height: 100vh;
 	animation-name: back;
 	animation-direction: alternate;
 	animation-duration: 4s;
 	animation-iteration-count: infinite;
-}
-iframe{
-	width: 1280px;
-    height: 786px;
-    border: 0;
-	-ms-transform: scale(0.8);
-	-moz-transform: scale(0.8);
-	-o-transform: scale(0.8);
-	-webkit-transform: scale(0.8);
-	transform: scale(0.8);
-/*	-ms-transform-origin: 0 0;
-	-moz-transform-origin: 0 0;
-	-o-transform-origin: 0 0;
-	-webkit-transform-origin: 0 0;
-	transform-origin: 0 0;*/
-	opacity: .8;
-}
-
+	outline: 1px solid yellow;
+	}
 h1{
 	font-family: "futura";
 	font-weight: 700;
@@ -29,52 +15,19 @@ h1{
 	line-height: .8em;
 	color: pink;
 	transform: rotate(-3deg);
-	animation-name: color;
+	animation-name: back;
 	animation-direction: alternate;
 	animation-duration: 10s;
 	overflow: hidden;
 	animation-iteration-count: infinite;
 	position: fixed;
+	mix-blend-mode: multiply;
+	outline: 1px solid blue;
 }
-
-h1:hover{
-	cursor: crosshair;
-	}	
-/*	footer{
-
-	}*/
-.hover_on{
-	opacity: 1;
+.frame_container{
+	width: 60vw;
+	outline: 1px solid red;
 }
-@keyframes back{
-				0%{
-					background-color:#4286f4;
-				}
-				20%{
-					background-color:#1fef8e; 
-				}
-				30%{
-					background-color: #791eef;
-				}
-				40%{
-					background-color: #ef1ed6;
-				}
-				50%{
-					background-color: #ef1e59;
-				}
-				60%{
-					background-color: #1e94ef;
-				}
-				70%{
-					background-color: #1eef59;
-				}
-				80%{
-					background-color: #1eebef;
-				}
-				90%{
-					background-color: #97ef1e;
-				}
-				100%{
-					background-color: #efcc1e;
-				}
-			}
+iframe{
+	width: 100%;
+}
