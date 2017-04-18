@@ -1,48 +1,102 @@
+/*@font-face{
+	font-family: 'futura';
+	 src: url('../futura.ttc')
+}*/
+
 body{
-	width: 100vw;
-	height: 100vh;
-	animation-name: back;
-	animation-direction: alternate;
-	animation-duration: 4s;
-	animation-iteration-count: infinite;
-	mix-blend-mode: multiply;
-/*	outline: 1px solid yellow;*/
-	}
-h1{
-	top: 0;
-	font-family: "futura";
-	font-weight: 700;
-	font-size: 22.2vw;
-	margin-top: 0;
-	line-height: .8em;
-	color: pink;
-	transform: rotate(-3deg);
-	animation-name: back;
 	animation-direction: alternate;
 	animation-duration: 10s;
-	overflow: hidden;
+	animation-name: back;
 	animation-iteration-count: infinite;
-	position: fixed;
-/*	mix-blend-mode: multiply;*/
-	z-index: -1;
-/*	outline: 1px solid blue;*/
+	font-family: 'Futura', "Trebuchet MS", Arial, sans-serif;
+}
+/*titles*/
+h1{
+	font-size: 33vh;
+	line-height: .99;
+	margin-top: 0;
+	font-family: 'futura';
+	text-transform: uppercase;
+	transform: rotate(-3deg);
+	position: absolute;
+	mix-blend-mode: screen;
+	animation-name: headers;
+	animation-iteration-count: infinite;
+	animation-duration: 8s;
+	animation-direction: alternate;
+}
+h1 a{
+	text-decoration: none;
+	animation-name: headers;
+	animation-iteration-count: infinite;
+	animation-duration: 8s;
+	animation-direction: alternate;
+}
+h1:hover{
+	cursor: crosshair;
+}
+.gallery_conatainer{
+	width: 100%;
+	height: 100%;
+	margin-right: 2%;
+		mix-blend-mode: multiply;
+}
+
+iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+		mix-blend-mode: screen;
 }
 .frame_container{
-	width: 70%;
-/*	outline: 1px solid red;*/
-	margin-bottom: 20%;
-	margin-left: 8%;
-	margin-top: 8%;
-	z-index: 1;
-/*	mix-blend-mode: multiply;*/
+	width: 60%;
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	float: left;
+	mix-blend-mode: screen;
 }
-iframe{
-	width: 100%;
-	mix-blend-mode: multiply;
+.wall_tag{
+	width: 30%;
+/*	outline: 1px solid pink;*/
+	right: 1%;
+	background-color: white;
+	font-family: 'futura';
+	margin-right: 2%;
+	font-size: .9vw;
+	position: fixed;
+	mix-blend-mode: screen;
+	padding-left: 1.5%;
+	padding-right: 1%;
+
+}
+.down_button a{
+	font-family: 'futura';
+	font-size: 2em;
+	position: fixed;
+	bottom: 2%;
+	right:2%;
+	transform: rotate(180deg);
+	color: #ff00bf;
+	text-decoration: none;
+}
+.up_button a{
+	font-family: 'futura';
+	font-size: 2em;
+/*	outline: 1px solid yellow;*/
+	position: fixed;
+	top: 2%;
+	right:2%;
+/*	transform: rotate(180deg);*/
+	color: #ff00bf;
+	text-decoration: none;
 }
 @keyframes back{
 	0%{
-		background-color:#4286f4;
+		background-color: #8cff00
 	}
 	20%{
 		background-color:#1fef8e; 
@@ -63,7 +117,7 @@ iframe{
 		background-color: #1eef59;
 	}
 	80%{
-		background-color: #1eebef;
+		background-color: #6542f4;
 	}
 	90%{
 		background-color: #97ef1e;
@@ -72,4 +126,38 @@ iframe{
 		background-color: #efcc1e;
 	}
 }
-
+@keyframes headers{
+	0%{
+		color:#4286f4;
+	}
+	10%{
+		color: #8300ff;
+	}
+	20%{
+		color:#1fef8e; 
+	}
+	30%{
+		color: #791eef;
+	}
+	40%{
+		color: #ef1ed6;
+	}
+	50%{
+		color: #ef1e59;
+	}
+	60%{
+		color: #1e94ef;
+	}
+	70%{
+		color: #1eef59;
+	}
+	80%{
+		color: #6542f4;
+	}
+	90%{
+		color: #97ef1e;
+	}
+	100%{
+		color: #efcc1e;
+	}
+}
