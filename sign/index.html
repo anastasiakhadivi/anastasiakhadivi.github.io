@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 	<html>
 	<head>
-		<title></title>
+		<title>Beyond the Bowery</title>
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+// 					$(function(){ 
+//     window.open("audio.html", "audio", "width:200, height:100"); 
+// });		
+			var myWindow;
+			function openWin(){
+				myWindow = window.open("audio.html", "width:400, height:50");
+			}
+			openWin();
+			})
+		</script>
 
 	</head>
 	<body>
-<!-- <audio autoplay loop>
-  <source src="Drinkee.m4a" type="audio/mpeg">
-Your browser does not support the audio element.
-< </audio>  -->
 		<div class="container">
 			<h1>Beyond<br>the<br>Bowery</h1>
 <!-- 			<div class="down_button">^</div> -->
