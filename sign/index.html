@@ -8,15 +8,20 @@
 		<script type="text/javascript" src="js/script.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function(){
-// 					$(function(){ 
-//     window.open("audio.html", "audio", "width:200, height:100"); 
-// });		
-			var myWindow;
-			function openWin(){
-				myWindow = window.open("audio.html", "width:400, height:50");
-			}
-			openWin();
-			})
+			// 	function audioWindow(){
+			// 		window.open("", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=300,height=100" );
+			// 	}
+			// 	audioWindow();
+			// })
+
+			function win(){
+				var myWindow = window.open("", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=300,height=100" );
+				
+				myWindow.document.write("<audio autoplay loop controls><source src='Drinkee.m4a' type='audio/mpeg'></audio");
+				console.log("working");
+				}
+				win();
+			});
 		</script>
 
 	</head>
