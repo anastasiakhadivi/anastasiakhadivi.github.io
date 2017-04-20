@@ -37,30 +37,30 @@ $(document).ready(function(){
 			console.log("working1");
 			$(".starting").hide();
 			$(".wipe1").show();
-		}, 1000);
+		}, 5000);
 		setTimeout(function(){
 			console.log("working2");
 			$(".wipe1").hide();
 			$(".wipe2").show();
-		}, 2000);
+		}, 10000);
 		setTimeout(function(){
 			console.log("working3");
 			$(".wipe2").hide();
 			$(".wipe3").show();
-		},3000);
+		},15000);
 		setTimeout(function(){
 			console.log("working4");
 			$(".wipe3").hide();
 			$(".wipe4").show();
-		},4000);
+		},20000);
 		setTimeout(function(){
 			console.log("working_done!");
 			$(".wipe4").hide();
-		}, 9000);
+		}, 25000);
 		setTimeout(function(){
 			console.log("final page");
 			$(".wipe5").show();
-		}, 11000)
+		}, 35000)
 	}
 	wipe();
 })
