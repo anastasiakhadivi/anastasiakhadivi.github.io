@@ -64,5 +64,9 @@ body{
 	position: fixed;
 	bottom: 2%;
 	right: 2%;
+/*	display: none;*/
 
+}
+.name_reveal div{
+	display: none;
 }
