@@ -119,4 +119,8 @@ $(document).ready(function(){
 		$(".book_name").toggle();
 	})
 
+
+// 	$('.items div').hover(function(){
+//    $(this).siblings('.folder-hover').toggle();
+// });
 })

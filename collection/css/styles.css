@@ -59,11 +59,12 @@ body{
 	outline: 1px solid yellow;
 }*/
 .name_reveal{
-	outline: 1px solid red;
+/*	outline: 1px solid red;*/
 	height: 100px;
 	position: fixed;
 	bottom: 2%;
 	right: 2%;
+	font-size: 2vw;
 /*	display: none;*/
 
 }
