@@ -3,29 +3,22 @@ body{
 /*	outline: 1px solid red;*/
 }
 .items{
-/*	margin-top: 40px;*/
-	outline: 1px solid blue;
 	width: 95vw;
-/*	float: right;*/
 	margin-top: 30px;
 	text-align: justify;
-/*	display: inline-block;*/
 	margin: 20px auto;
-	z-index: 2;
 }
 .items img{
 	width: 9%;
 }
 .name_reveal{
-	outline: 1px solid red;
 	height: 100px;
 	width: 95vw;
 	text-align: center;
-
-	font-size: 5vw;
-/*/*	display: none;*/
-margin:auto;
-z-index: 1;
+	font-size: 10vw;
+	position: fixed;
+	top: 200px;
+	margin: 20px auto;
 
 }
 .name_reveal div{
