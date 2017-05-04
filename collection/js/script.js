@@ -118,8 +118,51 @@ $(document).ready(function(){
 	$(".book").hover(function(){
 		$(".book_name").toggle();
 	})
-
-
+	$(".filet").hover(function(){
+		$(".filet_name").toggle();
+	})
+	$(".potato").hover(function(){
+		$(".potato_name").toggle();
+	})
+	$(".tennis").hover(function(){
+		$(".tennis_name").toggle();
+	})
+	$(".roach").hover(function(){
+		$(".roach_name").toggle();
+	})
+	$(".parmesean").hover(function(){
+		$(".parmesean_name").toggle();
+	})
+	$(".dog").hover(function(){
+		$(".dog_name").toggle();
+	})
+	$(".arugula").hover(function(){
+		$(".arugula_name").toggle();
+	})
+	$(".smirnoff").hover(function(){
+		$(".smirnoff_name").toggle();
+	})
+	$(".pesto").hover(function(){
+		$(".pesto_name").toggle();
+	})
+	$(".wine").hover(function(){
+		$(".wine_name").toggle();
+	})
+	$(".tortilla").hover(function(){
+		$(".tortilla_name").toggle();
+	})
+	$(".shade").hover(function(){
+		$(".shade_name").toggle();
+	})
+	$(".windbreaker").hover(function(){
+		$(".windbreaker_name").toggle();
+	})
+	$(".blouse1").hover(function(){
+		$(".blouse1_name").toggle();
+	})	
+	$(".blouse2").hover(function(){
+		$(".blouse2_name").toggle();
+	})	
 // 	$('.items div').hover(function(){
 //    $(this).siblings('.folder-hover').toggle();
 // });

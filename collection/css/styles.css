@@ -2,70 +2,30 @@ body{
 	font-family: "Helvetia", "Arial", "sans-serif";
 /*	outline: 1px solid red;*/
 }
-/*h1{
-	font-size: 1.2em;
-	float: left;
-}*/
-
-.week{
-/*	outline: 1px solid yellow;*/
-	height: 50px;
-	width: 95vw;
-	margin:auto;
-}
-.week h1{
-	font-size: 1.2em;
-	float: right;
-}
-.main_container{
-/*	outline: 1px solid pink;*/
-	width: 95vw;
-	margin: auto;
-}
-.list{
-	margin-top: 30px;
-/*	outline: 1px solid green;*/
-	list-style-type: none;
-	font-size: 2vw;
-	line-height: 150%;
-	padding-left: 0;
-/*	width: 30vw;*/
-	float: left;
-}
 .items{
-/*	outline: 1px solid blue;*/
-	width: 70vw;
-	float: right;
+/*	margin-top: 40px;*/
+	outline: 1px solid blue;
+	width: 95vw;
+/*	float: right;*/
 	margin-top: 30px;
+	text-align: justify;
 /*	display: inline-block;*/
-
+	margin: 20px auto;
+	z-index: 2;
 }
 .items img{
-	width: 10%;
+	width: 9%;
 }
-.food{
-	height: 0;
-	width: 0;
-	border-left: 60px solid transparent;
-	border-right: 60px solid transparent;
-	border-bottom:90px solid blue;
-/*	outline: 1px solid yellow;*/
-}
-/*.clothing{
-	height: 60px;
-	width: 60px;
-	border-radius: 50%;
-	background-color: blue;
-	outline: 1px solid yellow;
-}*/
 .name_reveal{
-/*	outline: 1px solid red;*/
+	outline: 1px solid red;
 	height: 100px;
-	position: fixed;
-	bottom: 2%;
-	right: 2%;
-	font-size: 2vw;
-/*	display: none;*/
+	width: 95vw;
+	text-align: center;
+
+	font-size: 5vw;
+/*/*	display: none;*/
+margin:auto;
+z-index: 1;
 
 }
 .name_reveal div{
