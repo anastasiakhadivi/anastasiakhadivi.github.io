@@ -2,24 +2,52 @@ body{
 	font-family: "Helvetia", "Arial", "sans-serif";
 /*	outline: 1px solid red;*/
 }
+.navigation{
+	list-style-type: none;
+	padding-left: 0;
+	text-align: justify;
+	/*outline: 1px solid red;
+*/
+}
+.navigation li{
+	display: inline;
+
+}
+.navigation a{
+	text-decoration: none;
+	color: black;
+	font-size: 1%;
+}
 .items{
-	width: 95vw;
+	width: 87vw;
 	margin-top: 30px;
 	text-align: justify;
 	margin: 20px auto;
 }
 .items img{
-	width: 9%;
+	width: 15%;
+	margin-bottom: 4%;
+	margin-right: 1%;
+/*	outline: 1px solid pink;*/
+}
+.items .xl{
+	width: 20%;
+}
+.items .small{
+	width: 10%;
+}
+.items .large{
+	width: 17%;
 }
 .name_reveal{
 	height: 100px;
-	width: 95vw;
-	text-align: center;
-	font-size: 10vw;
+	width: 13vw;
+	font-size: 1vw;
+/*	text-align: right;*/
 	position: fixed;
-	top: 200px;
-	margin: 20px auto;
-
+	top: 3%;
+	left: 85%;
+/*	outline: 1px solid red;*/
 }
 .name_reveal div{
 	display: none;
