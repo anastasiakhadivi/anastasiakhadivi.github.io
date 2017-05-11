@@ -171,5 +171,6 @@ $(document).ready(function(){
 		// $(".items").toggleClass("z-items");
 		// alert("hey");
 		$(".navigation").toggleClass("navigation_square_new");
+		// $(".navigation").toggleClass("navigation_new");
 	})
 })

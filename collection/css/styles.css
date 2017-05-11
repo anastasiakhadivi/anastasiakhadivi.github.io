@@ -5,19 +5,21 @@ body{
 .navigation{
 	list-style-type: none;
 	width: 40%;
-	outline: 1px solid red;
+/*	outline: 1px solid red;*/
 	margin: auto;
 	z-index: -1;
 	position: fixed;
 	display: none;
+	margin-left: 2%;
 }
 .navigation a{
 	text-decoration: none;
 	color: black;
-	font-size: 200%;
+	font-size:8vw;
 }
 .navigation_square_new{
 	display: block;
+	z-index: 8;
 }
 .navigation a:visited{
 	color: black;
@@ -25,15 +27,12 @@ body{
 .navigation a:active{
 	color: blue;
 }
-.z-items{
-	z-index: -1;
-}
 .items{
 	width: 87vw;
 	text-align: justify;
 	margin:auto;
-
 }
+
 .items img{
 	width: 15%;
 	margin-bottom: 4%;
