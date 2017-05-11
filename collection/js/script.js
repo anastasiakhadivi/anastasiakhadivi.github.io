@@ -1,5 +1,6 @@
 $(document).ready(function(){
 	// alert("hey");
+	// $(".navigation").hide();
 
 	$(".shoes_madden").hover(function(){
 		$(".shoes_madden_name").toggle();
@@ -163,7 +164,12 @@ $(document).ready(function(){
 	$(".blouse2").hover(function(){
 		$(".blouse2_name").toggle();
 	})	
-// 	$('.items div').hover(function(){
-//    $(this).siblings('.folder-hover').toggle();
-// });
+
+	$(".navigation_square").click(function(){
+		// alert("hey");
+		// $(".navigation").toggle();
+		// $(".items").toggleClass("z-items");
+		// alert("hey");
+		$(this).toggleClass("navigation_square_new");
+	})
 })
