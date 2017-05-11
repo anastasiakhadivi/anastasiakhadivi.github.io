@@ -9,6 +9,7 @@ body{
 	margin: auto;
 	z-index: -1;
 	position: fixed;
+	display: none;
 }
 .navigation a{
 	text-decoration: none;
@@ -16,7 +17,7 @@ body{
 	font-size: 200%;
 }
 .navigation_square_new{
-	
+	display: block;
 }
 .navigation a:visited{
 	color: black;

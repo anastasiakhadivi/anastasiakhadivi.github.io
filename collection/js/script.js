@@ -170,6 +170,6 @@ $(document).ready(function(){
 		// $(".navigation").toggle();
 		// $(".items").toggleClass("z-items");
 		// alert("hey");
-		$(this).toggleClass("navigation_square_new");
+		$(".navigation").toggleClass("navigation_square_new");
 	})
 })
